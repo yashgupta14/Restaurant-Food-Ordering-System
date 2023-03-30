@@ -1,0 +1,42 @@
+
+     
+form{
+margin: 25px;
+padding: 25px;
+background-color:chocolate;
+width: max-content;
+}
+     
+form h1{
+    font-size: 35px;
+}
+     
+.items{
+    padding: 10px;
+}
+     
+.labels{
+margin: 10px;
+width: 35px;
+}
+     
+.inputs{
+ margin-left: 15px;
+text-align: center;
+}
+     
+#submitbtn{
+margin-left: 40%;
+margin-right: 50%;
+}
+#gender-opts{
+margin-left: 135px;
+list-style: none;
+}
+#age{
+width: 150px;
+}
+input[type="text"]:hover,input[type="number"]:hover
+{
+background-color: bisque;
+}

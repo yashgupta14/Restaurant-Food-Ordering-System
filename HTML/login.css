@@ -1,0 +1,66 @@
+body{
+    background-color: #344a72;
+    font-family: 'Nunito', sans-serif;
+    padding-top: 2rem;
+}
+.loginbox{
+    background-color: antiquewhite;
+    width: 36rem;
+    height:33rem;
+    margin: auto;
+    border-radius: 0.3rem;
+}
+h1{
+    text-align: center;
+    padding-top: 1.5rem;
+}
+form{
+    width: 30rem;
+    margin-left: 2rem;
+}
+form label{
+    display: flex;
+    margin-top: 2rem;
+    font-size: 1.8rem;
+}
+form input{
+    width: 100%;
+    padding: 0.7rem;
+    border: none;
+    border:0.1rem solid gray ;
+    border-radius: 0.6rem;
+    outline: none;
+}
+
+input[type="submit"]{
+    width: 12rem;
+    height: 3.5rem ;
+    background-color:chocolate;
+    margin-top: 3rem;
+    border: none;
+    color: whitesmoke;
+    font-size: 1.8rem;
+    margin-left: 9rem;
+    border: 0.099rem solid black;
+}
+p{
+    text-align: center;
+    padding-top: 2rem;
+    font-size: 1.2rem;
+}
+.head{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 2.2rem;
+    text-decoration: overline;
+    text-shadow: 0.09rem 0.09rem;
+    margin-top: 0rem;
+    padding-top: 0rem;
+    color:white;
+}
+input[type="submit"]:hover{
+    cursor:pointer;
+    background-color:brown;
+}
+input[type="text"]:hover{
+    background-color: aquamarine;
+}

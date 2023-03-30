@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="alertform.js"></script>
+    <link rel="stylesheet" href="alert.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <form name="myForm"  onsubmit="return validateForm()" method="post" action="    ">
+        <h1 class="items">Enter Your Information</h1>
+        <div class="items">
+            <label for="name" class="labels">Name</label>
+            <input name="name" class="inputs" id="name" type="text" placeholder="Enter name ">
+        </div>
+        <br>
+        <div class="items">
+            <label class="labels" for="email">Email</label>
+            <input name = "email" class="inputs" id="email" type="text" placeholder="Enter email">
+        </div>
+        <br>
+        <div class="items">
+            <label for="age" class="labels">Age</label>
+            <input name="age" id="age" class="inputs" type="number" min="15" max="100" placeholder="Enter your age">
+        </div>
+        <br>
+        <div class="items">
+            <p>Choose your Gender</p>
+            <ul id="gender-opts">
+                <li><input checked name="gender" type="radio" id = "male"><label for="male">Male</label></li>
+                <li><input name="gender" type="radio" id = "female"><label for="female">Female</label></li>
+                <li><input checked name="gender" type="radio" id = "other"><label for="other">Would Not Prefer to say</label></li>
+            </ul>
+        </div>
+        <br>
+        <input id="submitbtn" class="items"  type="submit" value="Submit">
+    </form>
+ 
+</body>
+</html>
+
+

@@ -1,0 +1,34 @@
+body{
+    padding: 0rem;
+    padding-right: 8rem;
+    padding-top: 2rem;
+    background-color:#3fc979;
+    
+}
+.head{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 4rem;
+    font-style:italic;
+    text-decoration: overline;
+    text-shadow: 0.15rem 0.15rem;
+    
+}
+.menu{
+    border-radius: 5rem;
+    background-color: violet;
+    padding: 0.5rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: italic;
+}
+.headings{
+    background-color:violet;
+    border-radius: 5rem;
+}
+html {
+    font-size: 62.5%;
+}
+.pics{
+    padding: 5rem;
+}
